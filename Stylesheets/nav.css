@@ -1,0 +1,29 @@
+/*Css file*/ 
+html,body{
+  margin: auto;
+  padding:0;
+box-sizing: content-box;
+}
+.home{
+  padding-right:80px;
+  text-align:left;
+    
+}
+.about{
+  text-align:left;
+  padding-right:30px;
+}
+.portfolio{
+  padding-right:30px;
+  text-align:left;
+}
+.contacts{
+
+  padding-left:10px;
+  text-align:left;
+}
+#all-nav{
+box-sizing: content-box;
+margin:auto;
+  float:right;
+}

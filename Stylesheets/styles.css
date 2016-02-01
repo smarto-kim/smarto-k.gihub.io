@@ -1,0 +1,126 @@
+/***********************
+ *Css file
+ ***********************/ 
+body{
+  margin:auto;
+  padding:0;
+  background-image:url("../images/background.jpg");
+  background-repeat:no-repeat;
+}
+html,body{
+    padding:0;
+    margin: 0 auto;
+box-sizing: content-box;
+  background-size:100% ;
+overflow-y:absolute;
+}
+
+
+
+
+
+/************************************************
+ *NAVIGATION SECTION
+ * **********************************************/
+#nav nav a{
+  overflow:auto;
+    opacity: inherit;
+    text-decoration: none;
+    list-style-position: outside;
+}
+#nav li{
+    transform: skewX(11deg);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+
+#nav li{
+  transition-property:transform;
+    vertical-align:left 25px;
+    background: cover;
+    list-style-type: none;
+    list-style-position: outside none none;
+    list-style-type:none;
+    text-align: left ;
+    margin:30px auto;
+    overflow:absolute;
+    width:20px;
+}
+#nav li a{
+    padding: 10px 10px;
+    background-color: purple;
+    color:white;
+   
+  }
+#nav a:hover{
+    background-color:blue ;
+    color: white;
+}
+#all-nav{
+  box-sizing:border-box;
+}
+#whole #nav li a{
+  box-sizing:border-box;
+}
+.trapezoid {
+border-bottom: 100px solid purple;
+border-right: 18px solid transparent;
+position:absolute;
+opacity:0.6;
+width: 556px;
+height:0;
+}
+#trapezeum{
+float:right; 
+
+position:absolute;
+padding-left:170px;
+border-top: 740px solid purple;
+box-sizing: content-box;
+
+  border-left: 140px solid transparent;
+  opacity:.6;
+  width: 40px;
+   vertical-align:20px;
+}
+#straight{
+transform: skewX(0deg);
+}
+
+
+
+
+
+
+/************************************************
+ *BODY CONTENT
+ * **********************************************/
+#content{
+  padding-top:740px;
+}
+#about{
+   background-image:url("../images/facebook-cover-photo-grey.jpg");
+}
+
+
+
+/************************************************
+ *PORTFOLIO SECTION
+ * **********************************************/
+#portfolio{
+  text-align:center;
+  height:auto;
+  background-image:url("../images/facebook-cover-photo-grey.jpg");
+}
+
+
+
+
+/************************************************
+ *CONTACTS SECTION
+ * **********************************************/
+#contacts{
+   background-image:url("../images/at-the-beach-hd-wallpaper-1920x1200.jpg");
+   background:cover;
+   background-repeat:no-repeat;
+}
