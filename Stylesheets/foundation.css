@@ -14,9 +14,9 @@
 html {
   font-family: sans-serif;
   /* 1 */
-  -ms-text-size-adjust: 50%;
+  -ms-text-size-adjust: 100%;
   /* 2 */
-  -webkit-text-size-adjust: 50%;
+  -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
 /**
@@ -133,14 +133,14 @@ mark {
    * Address inconsistent and variable font size in all browsers.
    */
 small {
-  font-size: auto; }
+  font-size: 80%; }
 
 /**
    * Prevent `sub` and `sup` affecting `line-height` in all browsers.
    */
 sub,
 sup {
-  font-size: auto;
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
@@ -444,7 +444,7 @@ button {
   .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
     padding-left: 30px;
     padding-right: 30px; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 10em) {
     .row.medium-collapse > .column, .row.medium-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
