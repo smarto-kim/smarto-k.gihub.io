@@ -444,14 +444,14 @@ button {
   .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
     padding-left: 30px;
     padding-right: 30px; }
-  @media screen and (min-width: .5em) {
+  @media screen and (min-width: .39.9375em) {
     .row.medium-collapse > .column, .row.medium-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
     .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
       padding-left: 30px;
       padding-right: 30px; } }
-  @media screen and (min-width: 5em) {
+  @media screen and (min-width: 39.9375em) {
     .row.large-collapse > .column, .row.large-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
@@ -731,7 +731,7 @@ button {
   margin-left: 0;
   margin-right: 0; }
 
-@media screen and (min-width: 5em) {
+@media screen and (min-width: 39.9375em) {
   .medium-1 {
     width: 8.33333%; }
   .medium-push-1 {
@@ -929,7 +929,7 @@ button {
     margin-left: 0;
     margin-right: 0; } }
 
-@media screen and (min-width: 20em) {
+@media screen and (min-width: 39.9375em) {
   .large-1 {
     width: 8.33333%; }
   .large-push-1 {
@@ -1210,7 +1210,7 @@ h5 {
 h6 {
   font-size: 1rem; }
 
-@media screen and (min-width: 15em) {
+@media screen and (min-width: 39.9375em) {
   h1 {
     font-size: 3rem; }
   h2 {
@@ -1340,7 +1340,7 @@ kbd {
 .text-justify {
   text-align: justify; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 39.9375em) {
   .medium-text-left {
     text-align: left; }
   .medium-text-right {
@@ -1350,7 +1350,7 @@ kbd {
   .medium-text-justify {
     text-align: justify; } }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 39.9375em) {
   .large-text-left {
     text-align: left; }
   .large-text-right {
@@ -1726,15 +1726,15 @@ select {
 .invisible {
   visibility: hidden; }
 
-@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+@media screen and (min-width: 39.9375em) and (max-width: 39.9375em) {
   .hide-for-small-only {
     display: none !important; } }
 
-@media screen and (max-width: 0em), screen and (min-width: 40em) {
+@media screen and (max-width: 0em), screen and (min-width: 39.9375em) {
   .show-for-small-only {
     display: none !important; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 39.9375em) {
   .hide-for-medium {
     display: none !important; } }
 
@@ -1742,15 +1742,15 @@ select {
   .show-for-medium {
     display: none !important; } }
 
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 39.9375em) and (max-width: 63.9375em) {
   .hide-for-medium-only {
     display: none !important; } }
 
-@media screen and (max-width: 39.9375em), screen and (min-width: 64em) {
+@media screen and (max-width: 39.9375em), screen and (min-width: 39.9375em) {
   .show-for-medium-only {
     display: none !important; } }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 39.9375em) {
   .hide-for-large {
     display: none !important; } }
 
@@ -1758,11 +1758,11 @@ select {
   .show-for-large {
     display: none !important; } }
 
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+@media screen and (min-width: 39.9375em) and (max-width: 74.9375em) {
   .hide-for-large-only {
     display: none !important; } }
 
-@media screen and (max-width: 63.9375em), screen and (min-width: 75em) {
+@media screen and (max-width: 63.9375em), screen and (min-width: 39.9375em) {
   .show-for-large-only {
     display: none !important; } }
 
@@ -1997,7 +1997,7 @@ select {
   .button-group.stacked .button, .button-group.stacked-for-small .button {
     width: 100%;
     border-right: 0; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .button-group.stacked-for-small .button {
       width: auto; }
       .button-group.stacked-for-small .button:not(:last-child) {
@@ -2198,7 +2198,7 @@ select {
   position: absolute;
   top: 0;
   left: 100%;
-  min-width: 200px;
+  min-width: auto;
   z-index: 1;
   background: #fefefe;
   border: 1px solid #cacaca; }
@@ -2277,7 +2277,7 @@ select {
   display: block; }
   .media-object img {
     max-width: none; }
-  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  @media screen and (min-width: 39.9375em) and (max-width: auto) {
     .media-object.stack-for-small .media-object-section {
       display: block;
       padding: 0;
@@ -2326,12 +2326,12 @@ select {
     display: table-cell; }
   .menu.vertical > li {
     display: block; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .menu.medium-horizontal > li {
       display: table-cell; }
     .menu.medium-vertical > li {
       display: block; } }
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 39.9375em) {
     .menu.large-horizontal > li {
       display: table-cell; }
     .menu.large-vertical > li {
@@ -2453,7 +2453,7 @@ body {
           -ms-transform: translateX(-250px);
               transform: translateX(-250px); }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 39.9375em) {
   .position-left.reveal-for-medium {
     left: 0;
     z-index: auto;
@@ -2467,7 +2467,7 @@ body {
     .position-right.reveal-for-medium ~ .off-canvas-content {
       margin-right: 250px; } }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 39.9375em) {
   .position-left.reveal-for-large {
     left: 0;
     z-index: auto;
@@ -2568,7 +2568,7 @@ body {
     border-radius: 0; }
     .pagination li:last-child, .pagination li:first-child {
       display: inline-block; }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 39.9375em) {
       .pagination li {
         display: inline-block; } }
   .pagination a,
@@ -2771,7 +2771,7 @@ body.is-reveal-open {
   overflow-y: auto; }
   [data-whatinput='mouse'] .reveal {
     outline: 0; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal {
       min-height: 0; } }
   .reveal .column, .reveal .columns,
@@ -2779,29 +2779,29 @@ body.is-reveal-open {
     min-width: 0; }
   .reveal > :last-child {
     margin-bottom: 0; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal {
       width: 600px;
       max-width: 75rem; } }
   .reveal.collapse {
     padding: 0; }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal .reveal {
       left: auto;
       right: auto;
       margin: 0 auto; } }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal.tiny {
       width: 30%;
       max-width: 75rem; } }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal.small {
       width: 50%;
       max-width: 75rem; } }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 39.9375em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 39.9375em; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -3167,7 +3167,7 @@ table.hover tr:nth-of-type(even):hover {
     width: 200px;
     margin-right: 1rem; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 39.9375em) {
   .top-bar-left {
     float: left; }
   .top-bar-right {
