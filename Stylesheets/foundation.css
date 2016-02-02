@@ -14,9 +14,9 @@
 html {
   font-family: sans-serif;
   /* 1 */
-  -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: auto;
   /* 2 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: auto;
   /* 2 */ }
 
 /**
@@ -133,14 +133,14 @@ mark {
    * Address inconsistent and variable font size in all browsers.
    */
 small {
-  font-size: 80%; }
+  font-size: auto; }
 
 /**
    * Prevent `sub` and `sup` affecting `line-height` in all browsers.
    */
 sub,
 sup {
-  font-size: 75%;
+  font-size: auto;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
