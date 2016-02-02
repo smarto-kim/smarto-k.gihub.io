@@ -451,7 +451,7 @@ button {
     .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
       padding-left: 30px;
       padding-right: 30px; } }
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 5em) {
     .row.large-collapse > .column, .row.large-collapse > .columns {
       padding-left: 0;
       padding-right: 0; }
