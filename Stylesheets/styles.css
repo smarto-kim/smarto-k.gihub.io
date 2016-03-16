@@ -101,7 +101,15 @@ transform: skewX(0deg);
 #about{
    background-image:url("");
 }
-
+#circle { 
+width: 200px;
+height: 200px;
+background-image: url("../images/martin.jpg");
+background-size:240px 180px;
+-moz-border-radius: 150px;
+-webkit-border-radius: 150px;
+border-radius: 150px;
+} 
 
 
 /************************************************
