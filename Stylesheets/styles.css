@@ -109,7 +109,22 @@ background-size:240px 180px;
 -moz-border-radius: 150px;
 -webkit-border-radius: 150px;
 border-radius: 150px;
+z-index:1;
+position:absolute;
 } 
+#circle2{
+width: 250px;
+height: 250px;
+background:purple;
+opacity:0.6;
+background-size:240px 180px;
+-moz-border-radius: 150px;
+-webkit-border-radius: 150px;
+border-radius: 150px;
+z-index:0;
+position:absolute;
+} 
+
 
 
 /************************************************
