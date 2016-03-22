@@ -99,7 +99,7 @@ transform: skewX(0deg);
   padding-top:740px;
 }
 #about{
-   background-image:url("../images/facebook-cover-photo-grey.jpg");
+   background-image:url("");
 }
 
 
@@ -110,7 +110,7 @@ transform: skewX(0deg);
 #portfolio{
   text-align:center;
   height:auto;
-  background-image:url("../images/facebook-cover-photo-grey.jpg");
+  background-image:url("");
 }
 
 
