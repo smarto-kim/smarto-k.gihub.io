@@ -215,14 +215,7 @@ overflow-y:absolute;
 #whole #nav li a{
   box-sizing:border-box;
 }
-.trapezoid {
-border-bottom: 100px solid purple;
-border-right: 18px solid transparent;
-position:absolute;
-opacity:0.6;
-width: 556px;
-height:0;
-}
+
 #trapezeum{
 float:right; 
 
