@@ -1,6 +1,20 @@
 <!DOCTYPE html>   
 <html>
 <head>
+ <!--META CONTENT SECTION-->
+        <meta content="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--STYLESHEETS SECTION-->
+        <link rel="shortcut icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="Stylesheets/logo.css">
+        <link rel="stylesheet" href="Stylesheets/styles.css">
+        <link rel="stylesheet" href="Stylesheets/style.css">
+        <link rel="stylesheet" href="Stylesheets/nav.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <!--SCRIPT SECTION-->
+        <script type="text/javascript" src="javascript/modernizr-custom.js"></script>
+        <title>Martin Murungu</title>
 <style>
        body{
            background-image:url("images/background.jpg");
@@ -9,9 +23,96 @@
 </style>
 </head>
 <body>
-
+  <!--BACKGROUND-->
+        <!--HOME PAGE-->
+        
+        <!--NAVIGATION BAR-->
+        <div id="whole" style="padding-left:1000px;position:absolute;float:right;">
+        <div id="trapezeum" style="position:absolute;float:right;"></div>
+        <div id="nav" style="background:cover;position:absolute;z-index:0;">
+          <nav>
+          <ul>
+          <div id="all-nav">
+           <div style="position: absolute; left: 10px;" class="home"><li><a href="index.html"><span>Home</span></a></li></div>
+            <div style="position: absolute; top: 60px; left: 18px;" class="about"><li><a href="about.html"><span>About</span></a></li> </div>
+           <div style="position: absolute; top: 100px; left: 25px;" class="portfolio"><li><a href="portfolio.html"><span>Portfolio</span></a></li></div>
+           <div style="position: absolute; top: 150px; left: 34px;"  class="Contacts"><li><a href="contacts.html"><span>Contacts</span></a></li></div>
+           </div>
+         </ul> 
+           </nav>
+        </div>
+        </div>
+        
 <!--ABOUT SECTION-->
+<div style="padding-top:400px;"></div>
     <div id="about" style="text-align:center;">
+    <style type="text/css">
+
+.glidetext{
+position: relative;
+/*Set initial position of your text. Make it just enough to hide the text from view:*/
+left: -500px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+//Sequential fly-in text script- by JavaScriptKit.com
+//For this script and 400+ more, visit http://www.javascriptkit.com
+//This notice must stay intact for use
+
+var pausebetweenmsg=10 //customize pause in miliseconds between each message showing up (3000=3 seconds)
+var glidespeed=50 //customize glide speed in pixels per frame.
+
+var curobjindex=0
+
+function actualstyle(el, cssproperty){
+if (el.currentStyle)
+return el.currentStyle[cssproperty]
+else if (window.getComputedStyle){
+var elstyle=window.getComputedStyle(el, "")
+return elstyle.getPropertyValue(cssproperty)
+}
+}
+
+function collectElementbyClass(){
+var classname="glidetext"
+glidearray=new Array()
+var inc=0
+var alltags=document.all? document.all : document.getElementsByTagName("*")
+for (i=0; i<alltags.length; i++){
+if (alltags[i].className==classname)
+glidearray[inc++]=alltags[i]
+}
+if (glidearray.length>0)
+onebyoneglide()
+}
+
+function onebyoneglide(){
+if (curobjindex<glidearray.length)
+glidetimer=setInterval("glideroutine()",50)
+}
+
+function glideroutine(){
+if (parseInt(actualstyle(glidearray[curobjindex], "left"))<0)
+glidearray[curobjindex].style.left=parseInt(actualstyle(glidearray[curobjindex], "left"))+50+"px"
+else{
+glidearray[curobjindex].style.left=0https://www.youtube.com/channel/UCztGY3Qsxxk7JDSY3Q_iXsw
+curobjindex++
+clearInterval(glidetimer)
+setTimeout("onebyoneglide()", pausebetweenmsg)
+}
+}
+
+if (window.addEventListener)
+window.addEventListener("load", collectElementbyClass, false)
+else if (window.attachEvent)
+window.attachEvent("onload", collectElementbyClass)
+else if (document.getElementById)
+window.onload=collectElementbyClass
+
+</script>
       <h2 style="text-align:center;color:black;font-size:60px;">ABOUT</h2>
        <h5>FUN FACTS</h5>
        <u>BEST FOOD</u></br>
