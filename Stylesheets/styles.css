@@ -273,11 +273,19 @@ position:absolute;
 .myname{
   padding-left:200px;
   padding-top:300px;
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
 }
 .android_developer{
-  padding-left:190px;
+  padding-left:590px;
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
 }
-
+.below_image{
+  
+}
 
 /************************************************
  *PORTFOLIO SECTION
