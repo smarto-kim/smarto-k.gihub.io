@@ -270,7 +270,13 @@ border-radius: 150px;
 z-index:0;
 position:absolute;
 } 
-
+.myname{
+  padding-left:200px;
+  padding-top:300px;
+}
+.android_developer{
+  padding-left:190px;
+}
 
 
 /************************************************
