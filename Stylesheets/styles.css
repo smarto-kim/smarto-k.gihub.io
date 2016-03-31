@@ -273,15 +273,15 @@ position:absolute;
 .myname{
   padding-left:200px;
   padding-top:300px;
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
+  -vendor-animation-duration: 4s;
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: 5;
 }
 .android_developer{
-  padding-left:590px;
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
+  padding-left:90px;
+  -vendor-animation-duration: 8s;
+  -vendor-animation-delay: 10s;
+  -vendor-animation-iteration-count: 8;
 }
 .below_image{
   
