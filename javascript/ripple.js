@@ -1,6 +1,6 @@
 //jQuery time
 var parent, ink, d, x, y;
-$("#all-nav ul li a").click(function(e){
+$("ul li a").click(function(e){
 	parent = $(this).parent();
 	//create .ink element if it doesn't exist
 	if(parent.find(".ink").length == 0)
@@ -25,4 +25,4 @@ $("#all-nav ul li a").click(function(e){
 	
 	//set the position and add class .animate
 	ink.css({top: y+'px', left: x+'px'}).addClass("animate");
-})
+}) 
