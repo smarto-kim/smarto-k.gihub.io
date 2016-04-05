@@ -25,21 +25,29 @@ body::before {
   display: none;
 }
 .cd-section-1{
+  height:100%;
+  width:100%;
   padding:0;
   margin:auto;
   background-size:100% 100%;
 }
 .cd-section-2{
+  height:100%;
+  width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
 }
 .cd-section-3{
+  height:100%;
+  width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
 }
 .cd-section-4{
+  height:100%;
+  width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
