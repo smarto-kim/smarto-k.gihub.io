@@ -25,14 +25,15 @@ body::before {
   display: none;
 }
 .cd-section-1{
-  
+  margin:auto;
+  background-size:100% 100%;
 }
 .cd-section-2{
-  
+  background-size:100% 100%;
 }
 .cd-section-3{
-  
+  background-size:100% 100%;
 }
 .cd-section-4{
-  
+  background-size:100% 100%;
 }
