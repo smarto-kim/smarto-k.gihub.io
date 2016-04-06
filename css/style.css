@@ -142,10 +142,22 @@ body::before {
   font-size:inherit;
   text-align:center;
 }
-.cd-section-2 .text-4{
+.cd-section-2 h4{
   font-size:20px;
   text-align:center;
 }
+.cd-section-2 .text-4{
+  font-size:20px;
+  text-align:center;
+  line-height:36;
+}
+
+
+
+
+
+
+
 
 
 .cd-section-3{
@@ -161,7 +173,6 @@ body::before {
   text-decoration:none;
   list-style-type:none;
   font-size:40px;
-  line-height:24;
 }
 
 
