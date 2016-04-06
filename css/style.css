@@ -129,7 +129,6 @@ body::before {
 .cd-section-2 h2{
   text-align:center;
   font-size:40px;
-  
 }
 
 
@@ -149,6 +148,7 @@ body::before {
   text-align:center;
   text-decoration:none;
   list-style-type:none;
+  font-size:40px;
 }
 
 
@@ -168,6 +168,7 @@ body::before {
   text-align:center;
   text-decoration:none;
   list-style-type:none;
+  font-size:40px;
 }
 						  
 							  
