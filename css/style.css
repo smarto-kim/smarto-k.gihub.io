@@ -39,6 +39,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+a{
+  text-decoration:none;
+  color:#ffffff;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -106,10 +110,15 @@ body::before {
 .cd-section-1 p{
   text-align:bottom;
   line-height:;
+  text-decoration:none;
+  list-style-type:none;
 }
 .cd-blog{
-  line-height:23;
+  line-height:24;
 }
+
+
+
 .cd-section-2{
   height:800px;
   width:100%;
@@ -119,6 +128,8 @@ body::before {
 }
 .cd-section-2 h2{
   text-align:center;
+  font-size:40px;
+  
 }
 
 
@@ -136,6 +147,8 @@ body::before {
 
 .cd-section-3 h2{
   text-align:center;
+  text-decoration:none;
+  list-style-type:none;
 }
 
 
@@ -153,6 +166,8 @@ body::before {
 
 .cd-section-4 h2{
   text-align:center;
+  text-decoration:none;
+  list-style-type:none;
 }
 						  
 							  
