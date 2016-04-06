@@ -135,13 +135,11 @@ body::before {
     padding:10px 20px;
     cursor:pointer;
 }
-#arrow a .previous:hover{
-  background-color:white;
-  background-image:url("../img/ios7-arrow-up.png");
+.arrow-wrapper #arrow a:hover{
+  background-color:#BAB7B5;
 }
-#arrow a .previous:hover{
-  background-color:white;
-  background-image:url("../img/ios7-arrow-down.png");
+.arrow-wrapper #arrow a:hover{
+  background-color:#BAB7B5;
 }
 .arrow-wrapper{
  
