@@ -137,9 +137,11 @@ body::before {
 }
 #arrow a .previous:hover{
   background-color:white;
+  background-image:url("../img/ios7-arrow-up.png");
 }
 #arrow a .previous:hover{
-  
+  background-color:white;
+  background-image:url("../img/ios7-arrow-down.png");
 }
 .arrow-wrapper{
  
