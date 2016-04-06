@@ -3,6 +3,68 @@
 Primary style
 
 -------------------------------- */
+
+
+
+             /*Fonts and families*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -12,6 +74,7 @@ html {
 }
 
 body {
+ /* font-family: 'Poiret One', cursive;	*/
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
@@ -25,30 +88,74 @@ body::before {
   display: none;
 }
 .cd-section-1{
-  height:100%;
+  height:680px;
   width:100%;
   padding:0;
   margin:auto;
   background-size:100% 100%;
+
+  /*paddings*/
+  text-align:center;
 }
+.cd-section-1 h1 {
+  font-size:80px;
+}
+.cd-section-1 h2{
+  font-size:40px;
+}
+
+
 .cd-section-2{
-  height:100%;
+  height:800px;
   width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
 }
+.cd-section-2 h2{
+  text-align:center;
+}
+
+
+
+
+
+
 .cd-section-3{
-  height:100%;
+  height:800px;
   width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
 }
+
+.cd-section-3 h2{
+  text-align:center;
+}
+
+
+
+
+
+
 .cd-section-4{
-  height:100%;
+  height:700px;
   width:100%;
   padding:0;
   background-size:100% 100%;
   margin:auto;
 }
+
+.cd-section-4 h2{
+  text-align:center;
+}
+						  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
