@@ -91,6 +91,10 @@ body::before {
   content: 'mobile';
   display: none;
 }
+
+
+/********************** HOME PAGE ******************************************
+ ****************************************************************/
 .cd-section-1{
   height:680px;
   width:100%;
@@ -118,9 +122,10 @@ body::before {
 }
 
 
-
+/********************** ABOUT SECTION ******************************************
+ ****************************************************************/
 .cd-section-2{
-  height:800px;
+  height:680px;
   width:100%;
   padding:0;
   background-size:100% 100%;
@@ -133,6 +138,11 @@ body::before {
 .cd-section-2 .text-1{
   font-size:25px;
   text-align:center;
+}
+
+/******************  FIELDSET  **********************/
+fieldset{
+  
 }
 .cd-section-2 .text-2{
   font-size:inherit;
@@ -159,11 +169,12 @@ body::before {
 
 
 
-
+/********************** PORTFOLIO SECTION ******************************************
+ ****************************************************************/
 .cd-section-3{
   height:800px;
   width:100%;
-  padding:0;
+  padding:0;ABOUT
   background-size:100% 100%;
   margin:auto;
 }
@@ -179,7 +190,8 @@ body::before {
 
 
 
-
+/********************** CONTACTS SECTION ******************************************
+ ****************************************************************/
 .cd-section-4{
   height:700px;
   width:100%;
