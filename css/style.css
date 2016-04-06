@@ -103,8 +103,13 @@ body::before {
 .cd-section-1 h2{
   font-size:40px;
 }
-
-
+.cd-section-1 p{
+  text-align:bottom;
+  line-height:;
+}
+.cd-blog{
+  line-height:23;
+}
 .cd-section-2{
   height:800px;
   width:100%;
