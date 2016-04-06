@@ -155,7 +155,7 @@ fieldset{
 .cd-section-2 h4{
   font-size:20px;
   text-align:center;
-  height:430px;
+  height:400px;
 }
 .cd-section-2 .text-4{
   font-size:20px;
@@ -185,7 +185,9 @@ fieldset{
   list-style-type:none;
   font-size:40px;
 }
-
+.cd-section-3 .italic-3{
+  text-align:center;
+}
 
 
 
@@ -193,7 +195,7 @@ fieldset{
 /********************** CONTACTS SECTION ******************************************
  ****************************************************************/
 .cd-section-4{
-  height:700px;
+  height:680px;
   width:100%;
   padding:0;
   background-size:100% 100%;
