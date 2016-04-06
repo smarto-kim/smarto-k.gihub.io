@@ -135,6 +135,12 @@ body::before {
     padding:10px 20px;
     cursor:pointer;
 }
+#arrow a .previous:hover{
+  background-color:white;
+}
+#arrow a .previous:hover{
+  
+}
 .arrow-wrapper{
  
 }
