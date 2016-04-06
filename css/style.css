@@ -125,9 +125,10 @@ body::before {
 #arrow {
     position:fixed; 
     right:0; 
-    top:0;
+    bottom:0;
     background-color:#22283f;
     box-shadow:0 0 10px 10px black;
+    
 }
 #arrow a{
     display:flex;
@@ -135,12 +136,13 @@ body::before {
     cursor:pointer;
 }
 .arrow-wrapper{
-  text-align:bottom;
-  line-height:10;
+ 
 }
 
 /********************** ABOUT SECTION ******************************************
- ****************************************************************/
+ *********************************************************.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" hre*******/
 .cd-section-2{
   width:100%;
   padding:0;
