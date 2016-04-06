@@ -208,7 +208,16 @@ fieldset{
   list-style-type:none;
   font-size:40px;
 }
-						  
+.cd-section-4 .bar-1{
+  height:50px;
+  width:100%;
+  background-color:#BAB7B5;
+}
+.cd-section-4 .bar-2{
+  height:100px;
+  width:100%;
+  background-color:black;
+}						  
 							  
 							  
 							  
