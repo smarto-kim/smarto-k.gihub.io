@@ -126,13 +126,17 @@ body::before {
     position:fixed; 
     right:0; 
     top:0;
-    background-color:black;
-    color:white;
+    background-color:#22283f;
+    box-shadow:0 0 10px 10px black;
 }
 #arrow a{
-    display:inline-block;
+    display:flex;
     padding:10px 20px;
     cursor:pointer;
+}
+.arrow-wrapper{
+  text-align:bottom;
+  line-height:10;
 }
 
 /********************** ABOUT SECTION ******************************************
