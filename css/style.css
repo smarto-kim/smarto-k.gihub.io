@@ -96,7 +96,6 @@ body::before {
 /********************** HOME PAGE ******************************************
  ****************************************************************/
 .cd-section-1{
-  height:680px;
   width:100%;
   padding:0;
   margin:auto;
@@ -125,7 +124,6 @@ body::before {
 /********************** ABOUT SECTION ******************************************
  ****************************************************************/
 .cd-section-2{
-  height:680px;
   width:100%;
   padding:0;
   background-size:100% 100%;
@@ -142,7 +140,9 @@ body::before {
 
 /******************  FIELDSET  **********************/
 fieldset{
-  
+  margin:auto;
+  width:82%;
+  box-shadow:0 0 10px 10px black;
 }
 .cd-section-2 .text-2{
   font-size:inherit;
@@ -155,11 +155,11 @@ fieldset{
 .cd-section-2 h4{
   font-size:20px;
   text-align:center;
+  height:430px;
 }
 .cd-section-2 .text-4{
   font-size:20px;
   text-align:center;
-  line-height:36;
 }
 
 
@@ -174,7 +174,7 @@ fieldset{
 .cd-section-3{
   height:800px;
   width:100%;
-  padding:0;ABOUT
+  padding:0;
   background-size:100% 100%;
   margin:auto;
 }
