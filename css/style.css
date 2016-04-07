@@ -197,6 +197,36 @@ fieldset{
 
 /********************** PORTFOLIO SECTION ******************************************
  ****************************************************************/
+.cd-section-3{
+  height:800px;
+  width:100%;
+  padding:0;
+  background-size:100% 100%;
+  margin:auto;
+}
+
+.cd-section-3 h2{
+  text-align:center;
+  text-decoration:none;
+  list-style-type:none;
+  font-size:40px;
+}
+.cd-section-3 .italic-3{
+  text-align:center;
+}
+
+
+
+
+/********************** CONTACTS SECTION ******************************************
+ ****************************************************************/
+.cd-section-4{
+  height:680px;
+  width:100%;
+  padding:0;
+  background-size:100% 100%;
+  margin:auto;
+}
 
 .cd-section-4 h2{
   text-align:center;
