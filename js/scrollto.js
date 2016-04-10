@@ -14,7 +14,14 @@ $(function() {
   // Bind to scroll
   $(window).bind('scroll', upPos);
 
-  
+  //Move on click:
+  $('#arrow a').click(function(e) {
+    if ($(this).hasClass('next') && pagePositon + 1 <= pageMaxPosition) {
+      pagePositon++;
+      $('html, body').stop().animate({
+        scrollTop: $scrollItems.eq(pagePositon).offset().top
+      }, 300);
+    }
     if ($(this).hasClass('previous') && pagePositon - 1 >= 0) {
       pagePositon--;
       $('html, body').stop().animate({
