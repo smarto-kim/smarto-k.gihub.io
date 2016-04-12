@@ -55,20 +55,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -96,7 +82,8 @@ body::before {
 /********************** HOME PAGE ******************************************
  ****************************************************************/
 .cd-section-1{
-  width:100%;
+  width:auto;
+  height:640px;
   padding:0;
   margin:auto;
   background-size:100% 100%;
@@ -117,9 +104,19 @@ body::before {
   list-style-type:none;
 }
 .cd-blog{
-  line-height:24;
+  
+}
+.cd-section-1 .row .social .block ul{
+  display:inline-block;
+  float:left;
+  
 }
 
+.block li{
+  display:inline-block;
+  margin-left:auto;
+  margin-right:auto;
+}
 
 
 #arrow {
