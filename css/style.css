@@ -83,7 +83,7 @@ body::before {
  ****************************************************************/
 .cd-section-1{
   width:auto;
-  height:670px;
+  height:auto;
   padding:0;
   margin:auto;
   background-size:100% 100%;
@@ -108,7 +108,6 @@ body::before {
 }
 .cd-section-1 .row .social .block ul{
   display:inline-block;
-  float:left;
   
 }
 
