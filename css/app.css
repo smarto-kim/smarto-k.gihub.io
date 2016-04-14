@@ -142,7 +142,16 @@ body::before {
    
 }
 
-/********************** linkedin ******************************************/
+/********************** github ******************************************/
+.circle-1 {
+	width: 60px;
+	height: 60px;
+	background: #22283f;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow:0 0 10px 10px black;
+}
 .circle-1 {
 	width: 60px;
 	height: 60px;
@@ -168,7 +177,7 @@ body::before {
 .circle-2 {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #3b5998;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
