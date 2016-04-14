@@ -177,7 +177,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #d34836;
 }
 .circle-3:hover {
 	width: 60px;
@@ -186,7 +186,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #d34836;
 }
 
 
@@ -200,7 +200,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #0e76a8;
 }
 .circle-4:hover {
 	width: 60px;
@@ -209,7 +209,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #0e76a8;
 }
 /* Cleaner, but slightly less support: use "50%" as value */
 
