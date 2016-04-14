@@ -245,6 +245,7 @@ body::before {
 	<link rel="stylesheet" hre*******/
 .cd-section-2{
   width:100%;
+  height:auto;
   padding:0;
   background-size:100% 100%;
   background-image:url("../img/bg-10-full.jpg");
@@ -329,6 +330,8 @@ fieldset{
   width:100%;
   padding:0;
   background-size:100% 100%;
+ background-image:url("../img/bg-12-full.jpg");
+  background-attachment:fixed;
   margin:auto;
 }
 
