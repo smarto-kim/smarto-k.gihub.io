@@ -87,18 +87,19 @@ body::before {
   padding:0;
   margin:auto;
   background-size:100% 100%;
+  background-image:url("../img/9836055_orig.jpg");
 
   /*paddings*/
   text-align:center;
 }
 .cd-section-1 h1 {
-  font-size:80px;
-  color:white;
+  font-size:100px;
+  color:#22283f;
 }
 .cd-section-1 h2{
-  font-size:40px;
-  color:white;
-}
+  font-size:70px;
+  color:#22283f;
+}white
 .cd-section-1 p{
   text-align:bottom;
   line-height:;
@@ -146,20 +147,20 @@ body::before {
 .circle-1 {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #151013;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #151013;
 }
-.circle-1 {
+.circle-1:hover{
 	width: 60px;
 	height: 60px;
 	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px black;
+	box-shadow:0 0 6px 4px #151013;
 }
 /********************** facebook ******************************************/
 
@@ -168,20 +169,20 @@ body::before {
 .circle-2 {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	box-shadow:0 0 10px 10px #3b5998;
-}
-.circle-2 {
-	width: 60px;
-	height: 60px;
 	background: #3b5998;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 10px 10px #3b5998;
+	box-shadow:0 0 6px 4px #3b5998;
+}
+.circle-2:hover{
+	width: 60px;
+	height: 60px;
+	background: #22283f;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow:0 0 6px 4px #3b5998;
 }
 
 
@@ -190,7 +191,7 @@ body::before {
 .circle-3 {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #d34836;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -199,7 +200,7 @@ body::before {
 .circle-3:hover {
 	width: 60px;
 	height: 60px;
-	background: #d34836;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -213,7 +214,7 @@ body::before {
 .circle-4{
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #0e76a8;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -222,7 +223,7 @@ body::before {
 .circle-4:hover {
 	width: 60px;
 	height: 60px;
-	background: #0e76a8;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
