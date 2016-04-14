@@ -31,6 +31,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, main {
+￼
 	display: block;
 }
 body {
@@ -82,11 +83,12 @@ body::before {
 /********************** HOME PAGE ******************************************
  ****************************************************************/
 .cd-section-1{
-  width:auto;
+  width:100%;
   height:auto;
   padding:0;
   margin:auto;
   background-size:100% 100%;
+  background-attachment:fixed;
   background-image:url("../img/9836055_orig.jpg");
 
   /*paddings*/
@@ -245,14 +247,18 @@ body::before {
   width:100%;
   padding:0;
   background-size:100% 100%;
+  background-image:url("../img/bg-10-full.jpg");
+  background-attachment:fixed;
   margin:auto;
 }
 .cd-section-2 h2{
   text-align:center;
+  color:black;
   font-size:40px;
 }
 .cd-section-2 .text-1{
   font-size:25px;
+  color:#22283f;
   text-align:center;
 }
 
@@ -263,10 +269,12 @@ fieldset{
   box-shadow:0 0 10px 10px black;
 }
 .cd-section-2 .text-2{
+  color:#22283f;
   font-size:inherit;
   text-align:center;
 }
 .cd-section-2 .text-3{
+  color:#22283f;
   font-size:inherit;
   text-align:center;
 }
@@ -278,6 +286,8 @@ fieldset{
 .cd-section-2 .text-4{
   font-size:20px;
   text-align:center;
+    box-shadow:0 0 10px 10px white;
+
 }
 
 
@@ -294,6 +304,8 @@ fieldset{
   width:100%;
   padding:0;
   background-size:100% 100%;
+  background-image:url("../img/bg-9-full.jpg");
+  background-attachment:fixed;
   margin:auto;
 }
 
