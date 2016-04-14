@@ -146,7 +146,7 @@ body::before {
 .circle-1 {
 	width: 60px;
 	height: 60px;
-	background: red;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -154,7 +154,7 @@ body::before {
 .circle-2 {
 	width: 60px;
 	height: 60px;
-	background: red;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -162,7 +162,7 @@ body::before {
 .circle-3 {
 	width: 60px;
 	height: 60px;
-	background: red;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -170,7 +170,7 @@ body::before {
 .circle-4 {
 	width: 60px;
 	height: 60px;
-	background: red;
+	background: #22283f;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
