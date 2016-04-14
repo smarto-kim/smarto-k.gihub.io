@@ -152,7 +152,7 @@ body::before {
 	border-radius: 50px;
 	box-shadow:0 0 10px 10px black;
 }
-/********************** linkedin ******************************************/
+/********************** facebook ******************************************/
 
 
 
@@ -165,10 +165,11 @@ body::before {
 	border-radius: 50px;
 	box-shadow:0 0 10px 10px black;
 }
-/********************** linkedin ******************************************/
 
 
 
+
+/********************** google+ ******************************************/
 .circle-3 {
 	width: 60px;
 	height: 60px;
@@ -181,12 +182,15 @@ body::before {
 .circle-3:hover {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #d34836;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 10px 10px black;
 }
+
+
+
 
 /********************** linkedin ******************************************/
 .circle-4{
@@ -208,6 +212,8 @@ body::before {
 	box-shadow:0 0 10px 10px black;
 }
 /* Cleaner, but slightly less support: use "50%" as value */
+
+
 
 
 
