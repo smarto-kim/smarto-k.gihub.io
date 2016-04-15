@@ -282,15 +282,17 @@ fieldset{
 .cd-section-2 h4{
   font-size:20px;
   text-align:center;
-  height:400px;
+  height:;
 }
 .cd-section-2 .text-4{
   font-size:20px;
   text-align:center;
-    box-shadow:0 0 10px 10px white;
+  box-shadow:0 0 10px 10px white;
 
 }
-
+.cd-section-2 fieldset fieldset{
+  
+}
 
 
 
