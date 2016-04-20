@@ -144,7 +144,25 @@ body::before {
 .arrow-wrapper{
    
 }
-
+/********************** codewars ******************************************/
+.circle-5 {
+	width: 60px;
+	height: 60px;
+	background: #822B07;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow:0 0 6px 4px #822B07;
+}
+.circle-5:hover{
+	width: 60px;
+	height: 60px;
+	background: #22283f;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow:0 0 6px 4px #822B07;
+}
 /********************** github ******************************************/
 .circle-1 {
 	width: 60px;
