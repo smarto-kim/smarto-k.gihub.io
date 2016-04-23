@@ -152,12 +152,12 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 6px 4px #822B07;
+	box-shadow:0 0 6px 4px #ffffff;
 }
 .circle-5:hover{
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -171,7 +171,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 6px 4px #151013;
+	box-shadow:0 0 6px 4px #ffffff;
 }
 .circle-1:hover{
 	width: 60px;
@@ -193,7 +193,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 6px 4px #3b5998;
+	box-shadow:0 0 6px 4px #ffffff;
 }
 .circle-2:hover{
 	width: 60px;
@@ -215,7 +215,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 6px 4px #d34836;
+	box-shadow:0 0 6px 4px #ffffff;
 }
 .circle-3:hover {
 	width: 60px;
@@ -238,7 +238,7 @@ body::before {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	box-shadow:0 0 6px 4px #0e76a8;
+	box-shadow:0 0 6px 4px #ffffff;
 }
 .circle-4:hover {
 	width: 60px;
