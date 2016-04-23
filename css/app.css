@@ -148,7 +148,7 @@ body::before {
 .circle-5 {
 	width: 60px;
 	height: 60px;
-	background: #822B07;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -157,7 +157,7 @@ body::before {
 .circle-5:hover{
 	width: 60px;
 	height: 60px;
-	background: #ffffff;
+	background: #822B07;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -167,7 +167,7 @@ body::before {
 .circle-1 {
 	width: 60px;
 	height: 60px;
-	background: #151013;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -176,7 +176,7 @@ body::before {
 .circle-1:hover{
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #151013;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -189,7 +189,7 @@ body::before {
 .circle-2 {
 	width: 60px;
 	height: 60px;
-	background: #3b5998;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -198,7 +198,7 @@ body::before {
 .circle-2:hover{
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #3b5998;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -211,7 +211,7 @@ body::before {
 .circle-3 {
 	width: 60px;
 	height: 60px;
-	background: #d34836;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -220,7 +220,7 @@ body::before {
 .circle-3:hover {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #d34836;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -234,7 +234,7 @@ body::before {
 .circle-4{
 	width: 60px;
 	height: 60px;
-	background: #0e76a8;
+	background: #ffffff;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -243,7 +243,7 @@ body::before {
 .circle-4:hover {
 	width: 60px;
 	height: 60px;
-	background: #22283f;
+	background: #0e76a8;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
