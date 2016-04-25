@@ -499,7 +499,7 @@ body {
   width: 402px;
   color: #fff;
   overflow: auto;
-  float: left;
+  float: right;
 }
 
 #contact-area {
