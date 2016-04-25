@@ -89,6 +89,7 @@ body::before {
   margin:auto;
   background-size:100% 100%;
   background-attachment:fixed;
+  background-image:url("../img/9836055_orig.jpg");
 
   /*paddings*/
   text-align:center;
@@ -266,6 +267,7 @@ body::before {
   padding:0;
   text-align:center;
   background-size:100% 100%;
+  background-image:url("../img/bg-10-full.jpg");
   background-attachment:fixed;
   margin:auto;
 }
@@ -334,6 +336,7 @@ fieldset{
   width:100%;
   padding:0;
   background-size:100% 100%;
+  background-image:url("../img/bg-9-full.jpg");
   background-attachment:fixed;
   margin:auto;
 }
@@ -595,170 +598,5 @@ label {
   color: #fff;
   font-size: 14px;
 }							  
-		
-		
-		
-	/********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************//********************** APP CSS  ******************************************
- ****************************************************************/
- 
- /*------------------------------------*\
-    #Skrollr plugin
-    \*------------------------------------*/
- 
- #skrollr-body {
-   height: 100%;
-   overflow: visible;
-   position: relative;
-   z-index: 2;
- }
- 
- .skrollr-parallax {
-   position: fixed;
-   z-index: 1;
-   top: -100%;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
- }
- 
- .no-skrollr .skrollr-parallax {
-   display: none !important;
- }
- 
- .skrollr-parallax__image {
-   display: none;
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
- }
- 
- .skrollr-parallax__image.skrollable-between {
-   display: block;
- }
- /*------------------------------------*\
-    #Parallax-section
-    \*------------------------------------*/
- 
- .parallax {
-   position: relative;
-   display: table;
-   vertical-align: middle;
-   width: 100%;
-   height: 100%;
-   background: #ccc center no-repeat;
-   background-size: cover;
-   overflow: hidden;
- }
- /* When Skrollr plugin is active remove bg image and reset bg property */
- 
- .skrollr .parallax {
-   background: transparent !important;
-   /* !important override inline style */
- }
- /**
-     * Parallax-section body centered
-     */
- 
- .parallax__body {
-   /* centering */
-   
-   display: table-cell;
-   /* vertical-align: middle; */
-   
-   text-align: center;
- }
- /**
-    * Parallax-section title
-    */
- 
- 
- /**
-    * Parallax-section background images
-    */
- 
- .parallax--img-bg1 {
-   background-image: url(background-image:url("../img/9836055_orig.jpg");
- }
- 
- .parallax--img-bg2 {
-   background-image: url(background-image:url("../img/bg-10-full.jpg");
- }
- 
- .parallax--img-bg3 {
-   background-image: url(background-image:url("../img/bg-9-full.jpg");
- }
- /*------------------------------------*\
-    #Scroll-arrow
-    \*------------------------------------*/
- 
- .scroll-arrow {
-   position: absolute;
-   z-index: 3;
-   /* above parallax */
-   
-   left: 50%;
-   bottom: 30px;
-   width: 42px;
-   height: 20px;
-   background: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSI5NiAxNjAgMzIwIDE5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzk2LjYgMTYwbDE5LjQgMjAuN0wyNTYgMzUyIDk2IDE4MC43bDE5LjMtMjAuN0wyNTYgMzEwLjV6Ii8+PC9zdmc+') center no-repeat;
-   margin-left: -23px;
-   transition: .25s;
-   cursor: pointer;
-   transform-origin: bottom center;
-   opacity: .8;
-   -webkit-tap-highlight-color: transparent;
-   /* Hide text */
-   
-   font-size: 0;
-   color: transparent;
- }
- 
- .scroll-arrow:hover,
- .scroll-arrow:focus {
-   opacity: 1;
- }
- 
- .scroll-arrow:focus {
-   outline: none;
- }
- 
- .scroll-arrow:after {
-   content: '';
-   display: block;
-   position: absolute;
-   top: -20px;
-   bottom: -20px;
-   left: -20px;
-   right: -20px;
- }
- /**
-    * Scroll to top (in the footer)
-    */
- 
- .scroll-arrow--top {
-   transform: rotate(180deg);
-   transform-origin: 50% 50%;
- }
- 
- 
- 
- 
- 
+							  
+							  
