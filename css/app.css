@@ -357,7 +357,7 @@ fieldset{
 /********************** CONTACTS SECTION ******************************************
  ****************************************************************/
 .cd-section-4{
-  height:680px;
+  height:80px;
   width:100%;
   padding:0;
   background-size:100% 100%;
@@ -411,17 +411,17 @@ fieldset{
 }
 
 html {
-  height: 100%;
+  height: auto;
 }
 
 body {
-  background: #858d98;
+  background: transparent;
   /* Old browsers */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d', GradientType=1);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='transparent', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
-  background: -moz-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
+  background: -moz-radial-gradient(top, ellipse cover, transparent 1%, #4a525d 99%);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%, #858d98), color-stop(99%, #4a525d));
+  background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%, transparent), color-stop(99%, #4a525d));
   /* Chrome,Safari4+ */
   background: -webkit-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
   /* Chrome10+,Safari5.1+ */
@@ -442,8 +442,8 @@ body {
 
 #container {
   margin: auto;
-  width: 800px;
-  margin-bottom: 50px;
+  width: auto;
+  margin-bottom: ;
   overflow: auto;
 }
 
