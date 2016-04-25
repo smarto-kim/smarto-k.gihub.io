@@ -89,7 +89,6 @@ body::before {
   margin:auto;
   background-size:100% 100%;
   background-attachment:fixed;
-  background-image:url("../img/9836055_orig.jpg");
 
   /*paddings*/
   text-align:center;
@@ -267,7 +266,6 @@ body::before {
   padding:0;
   text-align:center;
   background-size:100% 100%;
-  background-image:url("../img/bg-10-full.jpg");
   background-attachment:fixed;
   margin:auto;
 }
@@ -336,7 +334,6 @@ fieldset{
   width:100%;
   padding:0;
   background-size:100% 100%;
-  background-image:url("../img/bg-9-full.jpg");
   background-attachment:fixed;
   margin:auto;
 }
@@ -615,82 +612,6 @@ label {
  ****************************************************************//********************** APP CSS  ******************************************
  ****************************************************************/
  
- 
-  * {
-   font-size: 30px;
-   box-sizing: border-box;
- }
- 
- html,
- body,
- main {
-   height: 100%;
-   font-family: 'Montserrat', sans-serif;
- }
- 
- h2 {
-   font-family: Arial;
- }
- 
- .about {
-   display: flex;
-   flex-direction: row-reverse;
-   justify-content: space-around;
-   align-items: center;
- }
- 
- .avatar {
-   height: 150px;
-   width: 150px;
- }
- 
- .avatar > img {
-   width: 100%;
- }
- 
- .social {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   height: 120px;
-   margin-bottom: 100px;
- }
- 
- .social > a {
-   margin: 0 auto;
-   padding: 0 5px;
-   border-radius: 5px;
-   color: black;
-   text-decoration: none;
- }
- 
- .works {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   height: 380px;
- }
- 
- .work {
-   height: 100px;
-   width: 30%;
-   margin: 0;
- }
- 
- .work > a,
- .email {
-   color: black;
-   text-decoration: none;
- }
- 
- .work > a > img {
-   width: auto;
-   height: 100px;
- }
- 
- .work > a > div {
-   font-size: 20px;
- }
  /*------------------------------------*\
     #Skrollr plugin
     \*------------------------------------*/
@@ -768,27 +689,21 @@ label {
     * Parallax-section title
     */
  
- .parallax__title {
-   font-size: 60px;
-   line-height: 1;
-   color: #000;
-   max-width: 800px;
-   margin: 80px auto;
- }
+ 
  /**
     * Parallax-section background images
     */
  
  .parallax--img-bg1 {
-   background-image: url(http://pexels.imgix.net/photos/8892/pexels-photo.jpg?fit=crop&w=1280&h=847);
+   background-image: url(background-image:url("../img/9836055_orig.jpg");
  }
  
  .parallax--img-bg2 {
-   background-image: url(http://pexels.imgix.net/photos/4303/red-bricks-texture-wall.jpg?fit=crop&w=1280&h=853);
+   background-image: url(background-image:url("../img/bg-10-full.jpg");
  }
  
  .parallax--img-bg3 {
-   background-image: url(http://pexels.imgix.net/photos/1763/wall-brown-fence-wooden.jpg?fit=crop&w=1280&h=853);
+   background-image: url(background-image:url("../img/bg-9-full.jpg");
  }
  /*------------------------------------*\
     #Scroll-arrow
