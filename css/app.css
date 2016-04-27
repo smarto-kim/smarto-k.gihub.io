@@ -542,7 +542,7 @@ body {
   border-right: 1px solid transparent;
 }
 
-#contact-area input.submit-button {
+#contact-area input.submit {
   font-family: 'Lato', calibri, arial;
   font-size: 12px;
   font-weight: 300;
@@ -561,7 +561,7 @@ body {
   transition: all 0.1s ease-in-out;
 }
 
-#contact-area input.submit-button:hover {
+#contact-area input.submit:hover {
   color: #fff;
   background-color: #333;
 }
