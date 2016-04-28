@@ -90,7 +90,6 @@ body::before {
   background-size:100% 100%;
   background-attachment:fixed;
   background-image:url("../img/9836055_orig.jpg");
-
   /*paddings*/
   text-align:center;
 }
@@ -127,9 +126,9 @@ body::before {
     z-index:1;
     position:fixed; 
     right:650px;
-    bottom:50px;
+    bottom:100px;
     background-color:transparent;
-    box-shadow:0 0 1px 1px white;
+   /* box-shadow:0 0 10px 10px white;*/
 }
 #arrow a{
     display:flex;
