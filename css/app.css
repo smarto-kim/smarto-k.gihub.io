@@ -599,4 +599,246 @@ label {
   font-size: 14px;
 }							  
 							  
-							  
+		/********************** APP CSS  ***SCROLL EFFECT CSS ***************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************//********************** APP CSS  ******************************************
+ ****************************************************************/		
+	
+	
+	
+	* {
+   font-size: 30px;
+   box-sizing: border-box;
+ }
+ 
+ html,
+ body,
+ main {
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ h2 {
+   font-family: Arial;
+ }
+ 
+ .about {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   align-items: center;
+ }
+ 
+ .avatar {
+   height: 150px;
+   width: 150px;
+ }
+ 
+ .avatar > img {
+   width: 100%;
+ }
+ 
+ .social {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 120px;
+   margin-bottom: 100px;
+ }
+ 
+ .social > a {
+   margin: 0 auto;
+   padding: 0 5px;
+   border-radius: 5px;
+   color: black;
+   text-decoration: none;
+ }
+ 
+ .works {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   height: 380px;
+ }
+ 
+ .work {
+   height: 100px;
+   width: 30%;
+   margin: 0;
+ }
+ 
+ .work > a,
+ .email {
+   color: black;
+   text-decoration: none;
+ }
+ 
+ .work > a > img {
+   width: auto;
+   height: 100px;
+ }
+ 
+ .work > a > div {
+   font-size: 20px;
+ }
+ /*------------------------------------*\
+    #Skrollr plugin
+    \*------------------------------------*/
+ 
+ #skrollr-body {
+   height: 100%;
+   overflow: visible;
+   position: relative;
+   z-index: 2;
+ }
+ 
+ .skrollr-parallax {
+   position: fixed;
+   z-index: 1;
+   top: -100%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+ }
+ 
+ .no-skrollr .skrollr-parallax {
+   display: none !important;
+ }
+ 
+ .skrollr-parallax__image {
+   display: none;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+ 
+ .skrollr-parallax__image.skrollable-between {
+   display: block;
+ }
+ /*------------------------------------*\
+    #Parallax-section
+    \*------------------------------------*/
+ 
+ .parallax {
+   position: relative;
+   display: table;
+   vertical-align: middle;
+   width: 100%;
+   height: 100%;
+   background: #ccc center no-repeat;
+   background-size: cover;
+   overflow: hidden;
+ }
+ /* When Skrollr plugin is active remove bg image and reset bg property */
+ 
+ .skrollr .parallax {
+   background: transparent !important;
+   /* !important override inline style */
+ }
+ /**
+     * Parallax-section body centered
+     */
+ 
+ .parallax__body {
+   /* centering */
+   
+   display: table-cell;
+   /* vertical-align: middle; */
+   
+   text-align: center;
+ }
+ /**
+    * Parallax-section title
+    */
+ 
+ .parallax__title {
+   font-size: 60px;
+   line-height: 1;
+   color: #000;
+   max-width: 800px;
+   margin: 80px auto;
+ }
+ /**
+    * Parallax-section background images
+    */
+ 
+ .parallax--img-bg1 {
+   background-image: url(http://pexels.imgix.net/photos/8892/pexels-photo.jpg?fit=crop&w=1280&h=847);
+ }
+ 
+ .parallax--img-bg2 {
+   background-image: url(http://pexels.imgix.net/photos/4303/red-bricks-texture-wall.jpg?fit=crop&w=1280&h=853);
+ }
+ 
+ .parallax--img-bg3 {
+   background-image: url(http://pexels.imgix.net/photos/1763/wall-brown-fence-wooden.jpg?fit=crop&w=1280&h=853);
+ }
+ /*------------------------------------*\
+    #Scroll-arrow
+    \*------------------------------------*/
+ 
+ .scroll-arrow {
+   position: absolute;
+   z-index: 3;
+   /* above parallax */
+   
+   left: 50%;
+   bottom: 30px;
+   width: 42px;
+   height: 20px;
+   background: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSI5NiAxNjAgMzIwIDE5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzk2LjYgMTYwbDE5LjQgMjAuN0wyNTYgMzUyIDk2IDE4MC43bDE5LjMtMjAuN0wyNTYgMzEwLjV6Ii8+PC9zdmc+') center no-repeat;
+   margin-left: -23px;
+   transition: .25s;
+   cursor: pointer;
+   transform-origin: bottom center;
+   opacity: .8;
+   -webkit-tap-highlight-color: transparent;
+   /* Hide text */
+   
+   font-size: 0;
+   color: transparent;
+ }
+ 
+ .scroll-arrow:hover,
+ .scroll-arrow:focus {
+   opacity: 1;
+ }
+ 
+ .scroll-arrow:focus {
+   outline: none;
+ }
+ 
+ .scroll-arrow:after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: -20px;
+   bottom: -20px;
+   left: -20px;
+   right: -20px;
+ }
+ /**
+    * Scroll to top (in the footer)
+    */
+ 
+ .scroll-arrow--top {
+   transform: rotate(180deg);
+   transform-origin: 50% 50%;
+ }
+ 
