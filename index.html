@@ -198,34 +198,7 @@
 			<div class="bar-2"></div>
 		</div>
 	</section>
-	<!--FIREBASE DATABASE-->
-<script>
-      var myDataRef = new Firebase('https://martin-murungu.firebaseio.com/');
-      $('#message').keypress(function (e) {
-        if (e.keyCode == 13) {
-          var Name = $('#Name').val();
-          var City = $('#City').val();
-          var Email = $('#Email').val();
-          var Phone = $('#Phone').val();
-          var message = $('#message').val();
-          myDataRef.push({Name: Name, City: City , Email: Email, Phone: Phone , Message: Message});
-          $('#Message').val('');
-        }
-      });
-      myDataRef.on('child_added', function(snapshot) {
-        var message = snapshot.val();
-        displayChatMessage(message.Name, message.City, message.Email, message.Phone,message.message);
-      });
-      function displayChatMessage(name, text) {
-        $('<div/>').message(message).prepend($('<em/>').message(Name+': ')).appendTo($('#messagesDiv'));
-        $('<div/>').City(City).prepend($('<em/>').Email(City+': ')).appendTo($('#messagesDiv'));
-        $('<div/>').Phone(Phone).prepend($('<em/>').Phone(Email+': ')).appendTo($('#messagesDiv'));
-        $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
-      };
-       submit.onclick = funct1();
-    </script>
 
-	
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
