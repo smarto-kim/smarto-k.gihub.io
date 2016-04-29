@@ -633,7 +633,7 @@ html { height: 100%;}
     z-index: 1000;
     left: 220px;
     width: 0;
-    height: 100%;
+    height: auto;
     margin-left: -220px;
     overflow-y: auto;
     overflow-x: hidden;
