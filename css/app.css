@@ -657,7 +657,7 @@ html { height: 100%;}
 }
 
 #wrapper.toggled #page-content-wrapper {
-    position: relative;
+    position: absolute;
     margin-right: -220px;
 }
 
@@ -673,7 +673,12 @@ html { height: 100%;}
     padding: 0;
     list-style: none;
 }
-
+#square {
+position:absolute;
+	width: 70px;
+	height: 70px;
+	background: #ffffff;
+}
 .sidebar-nav li {
     position: relative; 
     line-height: 20px;
