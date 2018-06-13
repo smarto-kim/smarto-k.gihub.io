@@ -24,15 +24,17 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: auto;
+	font:auto ;
 	vertical-align: baseline;
+    background-size:100% 100%;
+    background-attachment:fixed;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, main {
 ￼
-	display: block;
+	display:block;
 }
 body {
 	line-height: 2;
@@ -62,6 +64,7 @@ table {
 
 html {
   font-size: 62.5%;
+    
 }
 
 body {
@@ -83,10 +86,11 @@ body::before {
 /********************** HOME PAGE ******************************************
  ****************************************************************/
 .cd-section-1{
-  width:100%;
+  width:auto;
   height:auto;
   padding:0;
   margin:auto;
+  background-repeat: no-repeat;
   background-size:100% 100%;
   background-attachment:fixed;
   background-image:url("../img/9836055_orig.jpg");
@@ -94,11 +98,11 @@ body::before {
   text-align:center;
 }
 .cd-section-1 h1 {
-  font-size:100px;
+  font-size:350%;
   color:#ffffff;
 }
 .cd-section-1 h2{
-  font-size:70px;
+  font-size:250%;
   color:#ffffff;
 }
 .cd-section-1 p{
@@ -113,6 +117,8 @@ body::before {
 .cd-section-1 .row .social .block ul{
   display:inline-block;
   z-index:2;
+  align-content: center;
+  
 }
 
 .block li{
@@ -124,9 +130,9 @@ body::before {
 
 #arrow {
     z-index:1;
-    position:fixed; 
-    right:650px;
-    bottom:100px;
+    position:fixed;
+    right:;
+    bottom:;
     background-color:transparent;
    /* box-shadow:0 0 10px 10px white;*/
 }
@@ -153,6 +159,9 @@ body::before {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 6px 4px #822B07;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .circle-5:hover{
 	width: 60px;
@@ -172,6 +181,9 @@ body::before {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 6px 4px #151013;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .circle-1:hover{
 	width: 60px;
@@ -194,6 +206,9 @@ body::before {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 6px 4px #3b5998;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .circle-2:hover{
 	width: 60px;
@@ -216,6 +231,9 @@ body::before {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 6px 4px #d34836;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .circle-3:hover {
 	width: 60px;
@@ -239,6 +257,9 @@ body::before {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	box-shadow:0 0 6px 4px #0e76a8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .circle-4:hover {
 	width: 60px;
@@ -277,26 +298,32 @@ body::before {
   font-size:40px;
 }
 .cd-section-2 .text-1{
-  font-size:25px;
-  color:#22283f;
+  font-size:18px;
+  color:#fff;
   text-align:center;
+  background-color: black;
+    width:82%;
+  margin:auto;
+  
 }
 
 /******************  FIELDSET  **********************/
 fieldset{
   margin:auto;
   width:82%;
-  box-shadow:0 0 10px 10px black;
+  box-shadow:0 0 5px 5px black;
 }
 .cd-section-2 .text-2{
-  color:#22283f;
+  color:#fff;
   font-size:inherit;
   text-align:center;
+     background-color: black;
 }
 .cd-section-2 .text-3{
-  color:#22283f;
+  color:#fff;
   font-size:inherit;
   text-align:center;
+     background-color: black;
 }
 .cd-section-2 h4{
   font-size:20px;
@@ -306,7 +333,7 @@ fieldset{
 .cd-section-2 .text-4{
   font-size:20px;
   text-align:center;
-  box-shadow:0 0 10px 10px white;
+  box-shadow:0 0 5px 5px white;
 
 }
 .cd-section-2 fieldset fieldset{
@@ -675,8 +702,8 @@ html { height: 100%;}
 }
 #square {
 position:absolute;
-	width: 70px;
-	height: 70px;
+	width: 5%;
+	height: 10%;
 	background: #ffffff;
 }
 .sidebar-nav li {
@@ -934,3 +961,13 @@ position:absolute;
     bottom: 0;
     z-index: 1;
 }*/
+
+
+
+.active2{
+        background-color:cornflowerblue;
+}
+
+.active3{
+        background-color:coral;
+}
